@@ -1,0 +1,5 @@
+java_binary(
+    name = "ProjectRunner",
+    srcs = glob(["*.java"]),
+    main_class = "HelloWorld"
+)
