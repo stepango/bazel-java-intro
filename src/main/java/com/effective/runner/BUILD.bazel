@@ -1,0 +1,8 @@
+java_binary(
+    name = "Runner",
+    main_class = "com.effective.runner.Runner",
+    srcs = ["Runner.java"],
+    deps = [
+        "//src/main/java/com/effective/greeter"
+    ]
+)
